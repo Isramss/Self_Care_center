@@ -1,0 +1,90 @@
+/* font-family: 'Quicksand', sans-serif;
+COLORS
+light-yellow - #f7e4bf;
+light-blue - #78a7c6;
+dark-blue - #134d71;
+white - #ffffff;
+black - #000000;
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background: linear-gradient(#134d71, #78a7c6, #f7e4bf);
+}
+
+/*////////////////////////Titre////////////////////////////////*/
+.titre {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  color: #fff;
+}
+/*////////////////////////Box_general//////////////////////////////*/
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+/*/////////////////Titre+Box+Checkbox+btn ////////////////////*/
+
+.box_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 110px;
+}
+
+h2 {
+  color: #fff;
+}
+
+.box_radio {
+  height: 30px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding: 10px 150px 50px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+button {
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 40px;
+  background-color: #134d71;
+  cursor: pointer;
+}
+
+/*/////////////////Box+image+texte-apparent////////////////////*/
+
+.box_2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 175px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 155px;
+  width: 750px;
+  border-radius: 12px;
+  background: #fff;
+}
+
+img {
+  height: 100px;
+  width: 200px;
+}
