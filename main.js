@@ -103,11 +103,4 @@ let btn = document.querySelector(".btn_Message");
 
 btn.addEventListener("click", function (e) {
   // e.preventDefault();
-  if (Choise1) {
-    alert("super");
-  }
-  if (Choise2) {
-    alert("zero");
-  }
-  alert("super");
 });
