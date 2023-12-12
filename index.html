@@ -13,26 +13,37 @@
         <h2>Which type of message?</h2>
         <form class="box_radio">
           <div class="radio">
-            <input
-              type="radio"
-              id="choice1"
-              name="fav_language"
-              value="Affirmation" />
-            <label for="choice1">Affirmation</label>
-
-            <input
-              type="radio"
-              id="choice2"
-              name="fav_language"
-              value="Mantra" />
-            <label for="choice2">Mantra</label>
+            <div>
+              <input
+                type="radio"
+                id="choice1"
+                name="choix"
+                value="Choix Affirmation" />
+              <label for="choice1">Affirmation</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="choice2"
+                name="choix"
+                value="Choix Mantra" />
+              <label for="choice2">Mantra</label>
+            </div>
           </div>
           <button class="btn_Message">Receive Message</button>
         </form>
       </section>
+
+      <div class="err"></div>
+
       <section class="box_2">
         <div class="text">
-          <img src="assets/meditate.svg" alt="" />
+          <div class="box_text">
+            <img class="boudha" src="assets/meditate.svg" />
+          </div>
+          <button class="Clear" style="display: none" onClick="Clearbtn()">
+            <img src="assets/close_FILL0_wght400_GRAD0_opsz24.svg" alt="" />
+          </button>
         </div>
       </section>
     </section>
