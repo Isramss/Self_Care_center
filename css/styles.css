@@ -13,6 +13,7 @@ black - #000000;
 }
 
 body {
+  height: 100%;
   font-family: "Quicksand", sans-serif;
   background: rgb(19, 77, 113);
   background: linear-gradient(
@@ -107,7 +108,6 @@ label {
 /*/////////////////Bouton => Clear////////////////////*/
 .Clear {
   border: none;
-  padding: 0 15px;
   background-color: transparent;
   cursor: pointer;
 }
