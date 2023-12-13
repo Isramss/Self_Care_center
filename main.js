@@ -89,7 +89,8 @@ let boudha = document.querySelector(".boudha");
 
 let Message = document.querySelector(".box_text");
 
-// Ma function click
+// Ma function click: Je veux que lorsque je selectionne une radio et que je cliques sur le bouton cela m'affiche (en fonction de la radio selectionné) le text demandé tout en me masquant le boudha
+
 btn.addEventListener("click", function (e) {
   e.preventDefault();
 
@@ -103,13 +104,10 @@ btn.addEventListener("click", function (e) {
     err.innerHTML = "Selectionne un choix";
   }
 });
-
+// Ma function CLear (text)
 function Clearbtn() {
   Message.innerHTML = '<img class="boudha" src="assets/meditate.svg" />';
   btn_clear.style.display = "none";
 }
-console.log(Clearbtn);
-
-// Je veux que lorsque je selectionne une radio et que je cliques sur le bouton cela m'affiche (en fonction de la radio selectionné) le text demandé tout en me masquant le boudha
 
 //si mantra est selectioné affiche le moi dans la console
