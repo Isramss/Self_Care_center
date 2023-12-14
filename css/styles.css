@@ -15,7 +15,7 @@ black - #000000;
 body {
   height: 100%;
   font-family: "Quicksand", sans-serif;
-  background: rgb(19, 77, 113);
+  background-repeat: no-repeat;
   background: linear-gradient(
     rgba(19, 77, 113, 1) 0%,
     rgba(120, 167, 198, 1) 50%,

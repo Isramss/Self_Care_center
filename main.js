@@ -75,10 +75,8 @@ const Affirmations = [
 ];
 // déclaration de mes variables
 let Affirmation = document.querySelector("#choice1");
-let choixAffirmations = Math.floor(Math.random() * Affirmations.length);
 
 let Mantra = document.querySelector("#choice2");
-let choixMantras = Math.floor(Math.random() * Mantras.length);
 
 let btn = document.querySelector(".btn_Message");
 let btn_clear = document.querySelector(".Clear");
@@ -92,6 +90,8 @@ let Message = document.querySelector(".box_text");
 // Ma function click: Je veux que lorsque je selectionne une radio et que je cliques sur le bouton cela m'affiche (en fonction de la radio selectionné) le text demandé tout en me masquant le boudha
 
 btn.addEventListener("click", function (e) {
+  let choixMantras = Math.floor(Math.random() * Mantras.length);
+  let choixAffirmations = Math.floor(Math.random() * Affirmations.length);
   e.preventDefault();
 
   if (Affirmation.checked) {
