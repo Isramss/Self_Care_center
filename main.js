@@ -97,9 +97,11 @@ btn.addEventListener("click", function (e) {
   if (Affirmation.checked) {
     Message.innerHTML = Affirmations[choixAffirmations];
     btn_clear.style.display = "";
+    err.innerHTML = "";
   } else if (Mantra.checked) {
     Message.innerHTML = Mantras[choixMantras];
     btn_clear.style.display = "";
+    err.innerHTML = "";
   } else {
     err.innerHTML = "Selectionne un choix";
   }
